@@ -1,0 +1,30 @@
+body{
+    background: white url("../img/image2.jpg") no-repeat scroll center;
+}
+section{
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+article{
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+article h2{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+article h1{
+    font-family: "Old English Text MT",sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+article h3{
+    font-size: 30px;
+}

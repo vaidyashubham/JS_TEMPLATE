@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Example 2</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="#">JavaScript DOM Example</a>
+</nav>
+
+<section>
+    <button type="button" onclick="allEmployees()">All Employees</button>
+    <button type="button" onclick="maleEmployees()">Male Employees</button>
+    <button type="button" onclick="femaleEmployees()">Female Employees</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>EMP ID</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>GENDER</th>
+                <th>COUNTRY</th>
+            </tr>
+        </thead>
+        <tbody id="table_body">
+
+        </tbody>
+    </table>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

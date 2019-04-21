@@ -1,0 +1,9 @@
+section{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+label , input , button{
+    font-size: 18px;
+    outline: none;
+}

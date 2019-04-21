@@ -1,0 +1,17 @@
+body{
+    margin-bottom: 500px;
+}
+section{
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+select{
+    height: 35px;
+    font-size: 25px;
+    outline: none;
+    border-radius: 5px;
+}
+label{
+    font-size: 25px;
+}

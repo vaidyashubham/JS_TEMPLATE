@@ -1,0 +1,64 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.6.3.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <title>Book Store</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mt-4">
+                    <div class="card-header text-center">
+                        <h3><i class="fas fa-book-open text-primary"></i> The
+                           <span class="text-primary">Book</span>  Store</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="book-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Title" id="title">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Author" id="author">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="ISBN" id="isbn">
+                            </div>
+                            <input type="submit" value="Add book" class="btn btn-light btn-block">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table text-center table-hover">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Author</th>
+                                    <th>ISBN</th>
+                                    <th>#</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

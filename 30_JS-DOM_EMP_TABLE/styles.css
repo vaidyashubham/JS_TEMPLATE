@@ -1,0 +1,29 @@
+section{
+    text-align: center;
+    padding: 10px;
+}
+button{
+    padding: 14px 25px;
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+    margin: 5px;
+    outline: none;
+}
+button:hover{
+    opacity: 0.8;
+}
+table , th , td{
+    border: 2px solid teal;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 20px;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0 0 10px teal;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>JS DOM Manipulation</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+      section{
+          text-align: center;
+          background-color: lightgray;
+          padding: 10px;
+      }
+      button{
+          padding: 14px 25px;
+          font-size: 20px;
+      }
+        label , input{
+            font-size: 25px;
+        }
+        div{
+            background-color: lightgray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">JS DOM Manipulation</a>
+    </nav>
+
+    <!-- Events -->
+    <section>
+        <h2 id="msg"></h2>
+        <button type="button" onclick="displayMessage('Good Morning','purple')">Good Morning</button>
+        <button type="button" onclick="displayMessage('Good Afternoon','green')">Good Afternoon</button>
+        <button type="button" onclick="displayMessage('Good Evening','red')">Good Evening</button>
+        <button type="button" onclick="displayMessage('Good Night','black')">Good Night</button>
+    </section>
+    <br>
+    <!-- Event Listeners -->
+    <section>
+        <h2 id="data"></h2>
+        <button type="button" id="gm">Good Morning</button>
+        <button type="button" id="ga">Good Afternoon</button>
+        <button type="button" id="ge">Good Evening</button>
+        <button type="button" id="gn">Good Night</button>
+    </section>
+
+    <!-- Triangle One -->
+    <br>
+    <div>
+        <form>
+            <label>Triangle One</label>
+            <input type="text" id="text-box-1">
+            <pre id="text-1"></pre>
+        </form>
+    </div>
+
+<script src="10_script.js"></script>
+<script src="../09_JS_Math_Date_Objects/09_script.js"></script>
+</body>
+</html>
